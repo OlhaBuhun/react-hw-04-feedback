@@ -4,6 +4,7 @@ import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Statistics from './Statistics/Statistics';
 import Section from './Section/Section';
 import Notification from './Notification/Notification';
+import { GlobalStyle } from './GlobalStyle';
 
 const App = () => {
   const [good, setGood] = useState(0);
@@ -58,6 +59,7 @@ const App = () => {
           <Notification message="There is no feedback yet" />
         )}
       </Section>
+      <GlobalStyle />
     </div>
   );
 };

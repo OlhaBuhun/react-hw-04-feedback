@@ -15,11 +15,13 @@ export const FeedbackOptionsItem = styled.li`
 
 export const FeedbackOptionsButton = styled.button`
   display: inline-block;
-  width: 80px;
+  width: 90px;
   height: 40px;
   margin: 0 auto 0;
+  color: blue;
+  background-color: yellow;
   border: 1px solid #1969b4;
-  border-radius: 20px;
+  border-radius: 10px;
   cursor: pointer;
 
   transition: transform 250vs linear;
