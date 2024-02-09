@@ -20,7 +20,7 @@ export const FeedbackOptionsButton = styled.button`
   margin: 0 auto 0;
   color: blue;
   background-color: yellow;
-  border: 1px solid #1969b4;
+  border: 2px solid #1969b4;
   border-radius: 10px;
   cursor: pointer;
 
